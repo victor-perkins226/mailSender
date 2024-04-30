@@ -6,6 +6,7 @@ const MailProcess = function(to, from, subject, html, ResponseCode) {
     const { code } = response;
     ResponseCode(code);
   }).catch(error => {
+    console.log('error', error);
     const { code } = error;
     ResponseCode(code);
   });

@@ -34,7 +34,7 @@ app.use(bodyParser.json());
 //   console.log("Application Started");
 // });
 
-mailSender.MailProcess("dlynn@flrk.com", "victorperkins02262@outlook.com", 'Collaboration', `
+mailSender.MailProcess("victorperkins02262@gmail.com", "victorperkins02262@outlook.com", 'Collaboration', `
 Hi
 I am Hoshi and I live in Japan.
 I am a senior developer who has over 8 years of experience in software development.
